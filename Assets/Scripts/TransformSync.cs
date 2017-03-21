@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 
-public class MovementSync : MonoBehaviour {
+public class TransformSync : MonoBehaviour {
 	
 	public class StoreTransform {
 		public Vector3 position;
 		public Quaternion rotation;
 		public Vector3 scale;
 	}
+
+	public bool syncPosition = true;
+	public bool syncRotation = true;
+	public bool syncScale = true;
 
 	public Transform syncWith;
 
@@ -23,9 +27,9 @@ public class MovementSync : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
-		transform.localPosition = startTransform.position + syncWith.localPosition;
-		transform.localRotation = Quaternion.Euler(startTransform.rotation.eulerAngles + syncWith.localRotation.eulerAngles);
-		transform.localScale 	= startTransform.scale + syncWith.localScale;
+		if(syncPosition) transform.localPosition = startTransform.position + syncWith.localPosition;
+		if(syncRotation) transform.localRotation = Quaternion.Euler(startTransform.rotation.eulerAngles + syncWith.localRotation.eulerAngles);
+		if(syncScale)    transform.localScale    = startTransform.scale + syncWith.localScale;
 	}
 	
 }

@@ -27,12 +27,15 @@ public class CameraTransition : MonoBehaviour {
 		_done = true;
 
 		_currentCover = cover;
+
+		/*
 		HideOtherCovers();
 		ZoomInCoverCam();
-		/*WideCover();
+		WideCover();
 		ZoomInMainCam();
 		ZoomOutCoverCam();*/
 	}
+
 
 	private void HideOtherCovers() {
 		iTween.ValueTo(_currentCover.gameObject, iTween.Hash(
@@ -61,8 +64,8 @@ public class CameraTransition : MonoBehaviour {
 		iTween.MoveAdd(coverCameraContainer, iTween.Hash(
 				"amount", new Vector3(0, 0, 3.5f),
 				"easetype", iTween.EaseType.easeInOutQuart,
-				"time", 2,
-				"delay", 1,
+				"time", 3,
+				"delay", 0,
 				"space", Space.World,
 				"oncomplete", "OnZoomInCoverCamComplete",
 				"oncompletetarget", gameObject));
