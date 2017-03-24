@@ -3,8 +3,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class iTweenPath : MonoBehaviour
-{
+public class iTweenPath : MonoBehaviour {
 	public string pathName ="";
 	public Color pathColor = Color.cyan;
 	public List<Vector3> nodes = new List<Vector3>(){Vector3.zero, Vector3.zero};

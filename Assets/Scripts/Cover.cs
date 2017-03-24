@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 
 public class Cover : MonoBehaviour {
-
+/*
 	private CanvasGroup _alphaManager;
 	private PointOfInterest _pointOfInterest;
 	public static Cover _lastSelectedCover;
-	
+	public GameObject testObject;
+	private Color initialTint;
 
 	public float alpha {
 		get { return _alphaManager.alpha;  }
@@ -21,8 +22,26 @@ public class Cover : MonoBehaviour {
 	void OnFirePointOfInterest() {
 		//HideStaticCover();
 		//MoveIntoCover();
-		PlayRichardBransonTween();
+		//PlayRichardBransonTween();
+		ModifyShader();
 	}
+	private void ModifyShader() {
+		initialTint = testObject.GetComponent<Renderer>().material.GetColor("_TintColor");
+		iTween.ValueTo(gameObject, iTween.Hash(
+				"from", 1,
+				"to", 0,
+				"easetype", iTween.EaseType.linear,
+				"onupdate", "OnModifyShaderUpdated",
+				"onupdatetarget", gameObject,
+				"time", 3,
+				"delay", 0));
+	}
+	private void OnModifyShaderUpdated(float t) {
+        //rend.material.shader = Shader.Find("Specular");
+		float st = (t-0.5f)*2;
+        testObject.GetComponent<Renderer>().material.SetColor("_TintColor", initialTint * new Color(st, st, st, t*2));
+	}
+
 
 	private void PlayRichardBransonTween() {
 		iTween.MoveTo(ExperienceManager.instance.bransonCameraContainer, iTween.Hash(
@@ -59,4 +78,5 @@ public class Cover : MonoBehaviour {
 	private void OnHideStaticCoverUpdated(float t) {
 		alpha = t;
 	}
+	*/
 }

@@ -51,7 +51,7 @@ public class CameraTransition : MonoBehaviour {
 	private void OnHideOtherCoversUpdated(float t) {
 		for (int i = 0; i < coverList.Count; i++) {
 			if (coverList[i] != _currentCover) {
-				coverList[i].alpha = t;
+				//coverList[i].alpha = t;
 			}
 		}
 	}
