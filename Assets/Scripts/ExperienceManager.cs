@@ -2,23 +2,49 @@
 
 public class ExperienceManager : MonoBehaviour {
 
-	private static ExperienceManager _instance;
+	public Camera mainCamera;
 
-	public GameObject cameraContainer;
-	public GameObject bransonCameraContainer;
+	private Animator generalAnimator;
+	public GameObject skySphere;
+	public GameObject world;
 
-	public static ExperienceManager instance {
-		get { return _instance;	}
+	public Animator richardBransonCover;
+	public Animator richardBransonBlackBox;
+	public GameObject bransonCooperScene;
+
+	void Start() {
+		generalAnimator = GetComponent<Animator>();
+		generalAnimator.SetTrigger("Start");
 	}
 
-	public GameObject walls;
 
-	// Use this for initialization
-	void Awake() {
-		if (_instance == null) { _instance = this; }
+	public void ActivateRichardBransonCover() {
+		richardBransonCover.SetTrigger("ActivateCover");
 	}
-	public void MoveIntoCoverCompleted() {
-		walls.SetActive(false);
+
+	public void ActivateRichardBransonBlackBox() {
+		richardBransonBlackBox.SetTrigger("ActivateBox");
 	}
-	
+
+	public void DeactivateRichardBransonBlackBox() {
+		richardBransonBlackBox.SetTrigger("DeactivateBox");
+	}
+
+	public void OpenRichardBransonBlackBox() {
+		richardBransonBlackBox.SetTrigger("OpenBox");
+		richardBransonCover.SetTrigger("HideCover");
+	}
+
+	public void ActivateRichardBransonScene() {
+		world.SetActive(false);
+		skySphere.SetActive(false);
+		bransonCooperScene.SetActive(true);
+	}
+
+	public void HideMainCamera() {
+		mainCamera.gameObject.SetActive(false);
+	}
+
+
+
 }

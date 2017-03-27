@@ -5,8 +5,19 @@ using UnityEngine;
 
 public class BlackBoxBehaviour : MonoBehaviour {
 
-	public GameObject box;
-	public GameObject door;
+	private GameObject _box;
+	private GameObject _door;
+
+	void Awake() {
+		_box = this.gameObject;
+		_door = transform.GetChild(0).gameObject;
+
+		this._box.GetComponent<Renderer>().material.SetColor("_TintColor", new Color(0, 0, 0, 0));
+		this._door.GetComponent<Renderer>().material.SetColor("_TintColor", new Color(1, 1, 1, 0));
+	}
+
+
+	/*
 	public GameObject mainCover;
 	public List<GameObject> gentlemanCovers;
 
@@ -34,5 +45,6 @@ public class BlackBoxBehaviour : MonoBehaviour {
         door.GetComponent<Renderer>().material.SetColor("_TintColor", new Color(1, 1, 1, 1));
 		OnBoxActivated();
 	}
+	*/
 
 }
