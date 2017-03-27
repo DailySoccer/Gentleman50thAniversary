@@ -6,7 +6,7 @@ public class CameraTraveler : MonoBehaviour {
 
 
 
-	public void TeleportLookingAt(Transform t) {
+	/*public void TeleportLookingAt(Transform t) {
 		this.transform.position = t.position;
 		this.transform.rotation = t.rotation;
 	}
@@ -27,5 +27,5 @@ public class CameraTraveler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-	}
+	}*/
 }

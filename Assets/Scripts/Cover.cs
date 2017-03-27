@@ -77,6 +77,5 @@ public class Cover : MonoBehaviour {
 
 	private void OnHideStaticCoverUpdated(float t) {
 		alpha = t;
-	}
-	*/
+	}*/
 }

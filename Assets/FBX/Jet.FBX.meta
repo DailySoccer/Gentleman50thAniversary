@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 560d84bb59708f847b55707ba44ab550
+timeCreated: 1490202183
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: BODY_LIGHTS
+    100004: Body_MeshPart0
+    100006: Body_MeshPart1
+    100008: CAP_BODY1
+    100010: CAP_BODY_1-2
+    100012: CAP_BODY_L
+    100014: CAP_BODY_L_2
+    100016: CAP_BODY_R
+    100018: CAP_BODY_R_2
+    100020: DOOR_PANEL
+    100022: GLASS
+    100024: //RootNode
+    100026: MOTOR
+    100028: PILOT_CHAIR
+    100030: PILOT_CHAIR_BODY
+    100032: PLANE_DOOR
+    100034: PLANE_HANDLE
+    100036: SALOON
+    100038: SHASSI_1
+    100040: SHASSI_L
+    100042: SHASSI_R
+    100044: SHTORKI
+    100046: SHTURVAL01
+    100048: TRAP
+    100050: TRAP+
+    100052: TRAP_Handle
+    100054: TRAP_M
+    400000: Body
+    400002: BODY_LIGHTS
+    400004: Body_MeshPart0
+    400006: Body_MeshPart1
+    400008: CAP_BODY1
+    400010: CAP_BODY_1-2
+    400012: CAP_BODY_L
+    400014: CAP_BODY_L_2
+    400016: CAP_BODY_R
+    400018: CAP_BODY_R_2
+    400020: DOOR_PANEL
+    400022: GLASS
+    400024: //RootNode
+    400026: MOTOR
+    400028: PILOT_CHAIR
+    400030: PILOT_CHAIR_BODY
+    400032: PLANE_DOOR
+    400034: PLANE_HANDLE
+    400036: SALOON
+    400038: SHASSI_1
+    400040: SHASSI_L
+    400042: SHASSI_R
+    400044: SHTORKI
+    400046: SHTURVAL01
+    400048: TRAP
+    400050: TRAP+
+    400052: TRAP_Handle
+    400054: TRAP_M
+    2300000: BODY_LIGHTS
+    2300002: Body_MeshPart0
+    2300004: Body_MeshPart1
+    2300006: CAP_BODY1
+    2300008: CAP_BODY_1-2
+    2300010: CAP_BODY_L
+    2300012: CAP_BODY_L_2
+    2300014: CAP_BODY_R
+    2300016: CAP_BODY_R_2
+    2300018: DOOR_PANEL
+    2300020: GLASS
+    2300022: MOTOR
+    2300024: PILOT_CHAIR
+    2300026: PILOT_CHAIR_BODY
+    2300028: PLANE_DOOR
+    2300030: PLANE_HANDLE
+    2300032: SALOON
+    2300034: SHASSI_1
+    2300036: SHASSI_L
+    2300038: SHASSI_R
+    2300040: SHTORKI
+    2300042: SHTURVAL01
+    2300044: TRAP
+    2300046: TRAP+
+    2300048: TRAP_Handle
+    2300050: TRAP_M
+    3300000: BODY_LIGHTS
+    3300002: Body_MeshPart0
+    3300004: Body_MeshPart1
+    3300006: CAP_BODY1
+    3300008: CAP_BODY_1-2
+    3300010: CAP_BODY_L
+    3300012: CAP_BODY_L_2
+    3300014: CAP_BODY_R
+    3300016: CAP_BODY_R_2
+    3300018: DOOR_PANEL
+    3300020: GLASS
+    3300022: MOTOR
+    3300024: PILOT_CHAIR
+    3300026: PILOT_CHAIR_BODY
+    3300028: PLANE_DOOR
+    3300030: PLANE_HANDLE
+    3300032: SALOON
+    3300034: SHASSI_1
+    3300036: SHASSI_L
+    3300038: SHASSI_R
+    3300040: SHTORKI
+    3300042: SHTURVAL01
+    3300044: TRAP
+    3300046: TRAP+
+    3300048: TRAP_Handle
+    3300050: TRAP_M
+    4300000: SHASSI_L
+    4300002: GLASS
+    4300004: CAP_BODY1
+    4300006: SHASSI_1
+    4300008: CAP_BODY_1-2
+    4300010: CAP_BODY_R
+    4300012: CAP_BODY_L
+    4300014: CAP_BODY_R_2
+    4300016: CAP_BODY_L_2
+    4300018: MOTOR
+    4300020: SALOON
+    4300022: SHASSI_R
+    4300024: PLANE_DOOR
+    4300026: TRAP
+    4300028: TRAP+
+    4300030: TRAP_Handle
+    4300032: PLANE_HANDLE
+    4300034: TRAP_M
+    4300036: SHTORKI
+    4300038: BODY_LIGHTS
+    4300040: DOOR_PANEL
+    4300042: PILOT_CHAIR_BODY
+    4300044: PILOT_CHAIR
+    4300046: SHTURVAL01
+    4300048: Body_MeshPart0
+    4300050: Body_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
