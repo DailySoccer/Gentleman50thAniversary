@@ -147,6 +147,12 @@ ModelImporter:
     100278: wiper_part2
     100280: wiper_part3
     100282: wiper_part4
+    100284: Roof_n_Rear_Fender_MeshPart0
+    100286: Roof_n_Rear_Fender_MeshPart1
+    100288: Roof_n_Rear_Fender_MeshPart2
+    100290: Roof_n_Rear_Fender_MeshPart3
+    100292: Roof_n_Rear_Fender_MeshPart4
+    100294: Roof_n_Rear_Fender_MeshPart5
     400000: antenna
     400002: Back_Doors
     400004: Bottom
@@ -289,6 +295,12 @@ ModelImporter:
     400278: wiper_part2
     400280: wiper_part3
     400282: wiper_part4
+    400284: Roof_n_Rear_Fender_MeshPart0
+    400286: Roof_n_Rear_Fender_MeshPart1
+    400288: Roof_n_Rear_Fender_MeshPart2
+    400290: Roof_n_Rear_Fender_MeshPart3
+    400292: Roof_n_Rear_Fender_MeshPart4
+    400294: Roof_n_Rear_Fender_MeshPart5
     2300000: antenna
     2300002: Back_Doors
     2300004: Bottom
@@ -430,6 +442,12 @@ ModelImporter:
     2300276: wiper_part2
     2300278: wiper_part3
     2300280: wiper_part4
+    2300282: Roof_n_Rear_Fender_MeshPart0
+    2300284: Roof_n_Rear_Fender_MeshPart1
+    2300286: Roof_n_Rear_Fender_MeshPart2
+    2300288: Roof_n_Rear_Fender_MeshPart3
+    2300290: Roof_n_Rear_Fender_MeshPart4
+    2300292: Roof_n_Rear_Fender_MeshPart5
     3300000: antenna
     3300002: Back_Doors
     3300004: Bottom
@@ -571,6 +589,12 @@ ModelImporter:
     3300276: wiper_part2
     3300278: wiper_part3
     3300280: wiper_part4
+    3300282: Roof_n_Rear_Fender_MeshPart0
+    3300284: Roof_n_Rear_Fender_MeshPart1
+    3300286: Roof_n_Rear_Fender_MeshPart2
+    3300288: Roof_n_Rear_Fender_MeshPart3
+    3300290: Roof_n_Rear_Fender_MeshPart4
+    3300292: Roof_n_Rear_Fender_MeshPart5
     4300000: Headlights_part
     4300002: Headlights_part8
     4300004: Headlights_part13
@@ -712,6 +736,12 @@ ModelImporter:
     4300276: LicPlate01
     4300278: wheel_part032
     4300280: wheel_part033
+    4300282: Roof_n_Rear_Fender_MeshPart0
+    4300284: Roof_n_Rear_Fender_MeshPart1
+    4300286: Roof_n_Rear_Fender_MeshPart2
+    4300288: Roof_n_Rear_Fender_MeshPart3
+    4300290: Roof_n_Rear_Fender_MeshPart4
+    4300292: Roof_n_Rear_Fender_MeshPart5
   materials:
     importMaterials: 1
     materialName: 0
@@ -722,6 +752,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
