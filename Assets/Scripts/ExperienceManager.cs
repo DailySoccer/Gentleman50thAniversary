@@ -47,13 +47,13 @@ public class ExperienceManager : MonoBehaviour {
 	}
 
 	public void OpenRichardBransonBlackBox() {
+		bransonWorldElements.SetActive(false);
+		skySphere.SetActive(false);
 		bransonCover.SetTrigger("HideCover");
 	}
 
 	public void ActivateRichardBransonScene() {
-		bransonWorldElements.SetActive(false);
 		//bransonBlackboxContainer.SetActive(false);
-		skySphere.SetActive(false);
 		bransonCooperScene.SetActive(true);
 	}
 
@@ -96,6 +96,9 @@ public class ExperienceManager : MonoBehaviour {
 	public GameObject federerBlackBoxContainer;
 	[Header("Federer-Rolls")]
 	public GameObject federerRollsScene;
+	public GameObject federerRollsWorldElements;
+	[Header("Rolls")]
+	public GameObject rollsBlackBoxContainer;
 
 	public void ActivateFedererBlackBox() {
 		federerBlackBox.SetTrigger("ActivateBox");
@@ -110,7 +113,19 @@ public class ExperienceManager : MonoBehaviour {
 		federerBlackBoxContainer.SetActive(false);
 		cooperBlackBoxContainer.SetActive(false);
 		skySphere.SetActive(false);
+		mainCameraContainer.SetActive(false);
 	}
+
+	private void ActivateRollsCoverWorld() {
+		federerRollsWorldElements.SetActive(true);
+		skySphere.SetActive(true);
+		rollsBlackBoxContainer.SetActive(true);
+		mainCameraContainer.SetActive(true);
+		//federerRollsScene.SetActive(false);
+
+		//bransonCooperScene.SetActive(false);
+	}
+
 
 	#endregion
 
