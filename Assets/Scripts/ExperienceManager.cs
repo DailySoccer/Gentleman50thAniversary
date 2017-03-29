@@ -25,31 +25,34 @@ public class ExperienceManager : MonoBehaviour {
 		mainCamera.gameObject.SetActive(true);
 	}
 
-	#region Richard Branson
-
-	public Animator richardBransonCover;
-	public Animator richardBransonBlackBox;
-	public GameObject richardBransonWorldElements;
+	#region Branson
+	[Header("Branson")]
+	public GameObject bransonBlackboxContainer;
+	public Animator bransonCover;
+	public Animator bransonBlackBox;
+	public GameObject bransonWorldElements;
+	[Header("Branson-Cooper")]
 	public GameObject bransonCooperScene;
 
 	public void ActivateRichardBransonCover() {
-		richardBransonCover.SetTrigger("ActivateCover");
+		bransonCover.SetTrigger("ActivateCover");
 	}
 
 	public void ActivateRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("ActivateBox");
+		bransonBlackBox.SetTrigger("ActivateBox");
 	}
 
 	public void DeactivateRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("DeactivateBox");
+		bransonBlackBox.SetTrigger("DeactivateBox");
 	}
 
 	public void OpenRichardBransonBlackBox() {
-		richardBransonCover.SetTrigger("HideCover");
+		bransonCover.SetTrigger("HideCover");
 	}
 
 	public void ActivateRichardBransonScene() {
-		richardBransonWorldElements.SetActive(false);
+		bransonWorldElements.SetActive(false);
+		//bransonBlackboxContainer.SetActive(false);
 		skySphere.SetActive(false);
 		bransonCooperScene.SetActive(true);
 	}
@@ -59,6 +62,7 @@ public class ExperienceManager : MonoBehaviour {
 
 	#region Cooper
 
+	[Header("Cooper")]
 	public Animator cooperBlackBox;
 	public GameObject cooperBlackBoxContainer;
 	public GameObject cooperWorldElements;
@@ -71,61 +75,43 @@ public class ExperienceManager : MonoBehaviour {
 
 		mainCamera.gameObject.SetActive(true);
 	}
-
-	/*
-	public void ActivateRichardBransonCover() {
-		richardBransonCover.SetTrigger("ActivateCover");
+	public void DeactivateCooperBlackBox() {
+		cooperBlackBox.SetTrigger("DeactivateBox");
+		ActivateCooperCoverWorld();
 	}
 
-
-	public void DeactivateRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("DeactivateBox");
+	private void ActivateCooperCoverWorld() {
+		cooperWorldElements.SetActive(true);
+		skySphere.SetActive(true);
+		bransonCooperScene.SetActive(false);
 	}
 
-	public void OpenRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("OpenBox");
-		richardBransonCover.SetTrigger("HideCover");
-	}
-
-	public void ActivateRichardBransonScene() {
-		richardBransonWorldElements.SetActive(false);
-		skySphere.SetActive(false);
-		bransonCooperScene.SetActive(true);
-	}
-*/
 	#endregion
 
 
 	#region Federer
 
+	[Header("Federer")]
 	public Animator federerBlackBox;
 	public GameObject federerBlackBoxContainer;
+	[Header("Federer-Rolls")]
+	public GameObject federerRollsScene;
 
 	public void ActivateFedererBlackBox() {
 		federerBlackBox.SetTrigger("ActivateBox");
 	}
 
-	/*
-	public void ActivateRichardBransonCover() {
-		richardBransonCover.SetTrigger("ActivateCover");
+	public void ActivateFedererScene_pre() {
+		federerRollsScene.SetActive(true);
 	}
 
-
-	public void DeactivateRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("DeactivateBox");
-	}
-
-	public void OpenRichardBransonBlackBox() {
-		richardBransonBlackBox.SetTrigger("OpenBox");
-		richardBransonCover.SetTrigger("HideCover");
-	}
-
-	public void ActivateRichardBransonScene() {
-		richardBransonWorldElements.SetActive(false);
+	public void ActivateFedererScene() {
+		cooperWorldElements.SetActive(false);
+		federerBlackBoxContainer.SetActive(false);
+		cooperBlackBoxContainer.SetActive(false);
 		skySphere.SetActive(false);
-		bransonCooperScene.SetActive(true);
 	}
-*/
+
 	#endregion
 
 }
