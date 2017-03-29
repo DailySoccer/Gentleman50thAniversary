@@ -33,6 +33,8 @@ ModelImporter:
     100050: TRAP+
     100052: TRAP_Handle
     100054: TRAP_M
+    100056: Body_MeshPart2
+    100058: Body_MeshPart3
     400000: Body
     400002: BODY_LIGHTS
     400004: Body_MeshPart0
@@ -61,6 +63,8 @@ ModelImporter:
     400050: TRAP+
     400052: TRAP_Handle
     400054: TRAP_M
+    400056: Body_MeshPart2
+    400058: Body_MeshPart3
     2300000: BODY_LIGHTS
     2300002: Body_MeshPart0
     2300004: Body_MeshPart1
@@ -87,6 +91,8 @@ ModelImporter:
     2300046: TRAP+
     2300048: TRAP_Handle
     2300050: TRAP_M
+    2300052: Body_MeshPart2
+    2300054: Body_MeshPart3
     3300000: BODY_LIGHTS
     3300002: Body_MeshPart0
     3300004: Body_MeshPart1
@@ -113,6 +119,8 @@ ModelImporter:
     3300046: TRAP+
     3300048: TRAP_Handle
     3300050: TRAP_M
+    3300052: Body_MeshPart2
+    3300054: Body_MeshPart3
     4300000: SHASSI_L
     4300002: GLASS
     4300004: CAP_BODY1
@@ -139,6 +147,8 @@ ModelImporter:
     4300046: SHTURVAL01
     4300048: Body_MeshPart0
     4300050: Body_MeshPart1
+    4300052: Body_MeshPart2
+    4300054: Body_MeshPart3
   materials:
     importMaterials: 1
     materialName: 0
@@ -149,6 +159,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
