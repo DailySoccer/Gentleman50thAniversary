@@ -145,7 +145,7 @@ public class PointOfInterestPointer : MonoBehaviour {
 		if (Debug.isDebugBuild) {
 			Transform camTransform = Camera.main.transform;
 			Gizmos.color = !(_lastRaycastData != null && _lastRaycastData.isPointOfInterest)? Color.blue : Color.green;
-			Gizmos.DrawRay(camTransform.position, camTransform.forward * 100);
+			Gizmos.DrawRay(camTransform.position, camTransform.forward * 200);
 
 			if(!_lastRaycastData.isPointOfInterest) return;
 
