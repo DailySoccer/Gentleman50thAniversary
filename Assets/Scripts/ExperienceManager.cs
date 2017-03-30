@@ -68,6 +68,7 @@ public class ExperienceManager : MonoBehaviour {
 	public GameObject cooperWorldElements;
 
 	public void ActivateCooperBlackBox() {
+		bransonBlackboxContainer.SetActive(false);
 		cooperBlackBoxContainer.SetActive(true);
 		federerBlackBoxContainer.SetActive(true);
 
@@ -121,11 +122,65 @@ public class ExperienceManager : MonoBehaviour {
 		skySphere.SetActive(true);
 		rollsBlackBoxContainer.SetActive(true);
 		mainCameraContainer.SetActive(true);
+		adriaBlackBoxContainer.SetActive(true);
 		//federerRollsScene.SetActive(false);
 
 		//bransonCooperScene.SetActive(false);
 	}
 
+	private void DeactivateFedererRollsScene() {
+		federerRollsScene.SetActive(false);
+	}
+	#endregion
+
+	#region Federer
+
+	[Header("Adria")]
+	public Animator adriaBlackBox;
+	public GameObject adriaBlackBoxContainer;
+	[Header("Adria-Gardner")]
+	public GameObject adriaGardnerScene;
+	public GameObject adriaGardnerWorldElements;
+	/*[Header("Gardner")]
+	public GameObject rollsBlackBoxContainer;
+*/
+
+	public void ActivateAdriaBlackBox() {
+		adriaBlackBox.SetTrigger("ActivateBox");
+	}
+	public void ActivateAdriaScene() {
+		adriaGardnerScene.SetActive(true);
+	}
+	public void HideAdriaGardnerWorldElements() {
+		federerRollsWorldElements.SetActive(false);
+		rollsBlackBoxContainer.SetActive(false);
+		adriaBlackBox.SetTrigger("ActivateBox");
+		skySphere.SetActive(false);
+	}
+
+	/*
+	public void ActivateFedererScene_pre() {
+		federerRollsScene.SetActive(true);
+	}
+
+	public void ActivateFedererScene() {
+		cooperWorldElements.SetActive(false);
+		federerBlackBoxContainer.SetActive(false);
+		cooperBlackBoxContainer.SetActive(false);
+		skySphere.SetActive(false);
+		mainCameraContainer.SetActive(false);
+	}
+
+	private void ActivateRollsCoverWorld() {
+		federerRollsWorldElements.SetActive(true);
+		skySphere.SetActive(true);
+		rollsBlackBoxContainer.SetActive(true);
+		mainCameraContainer.SetActive(true);
+		//federerRollsScene.SetActive(false);
+
+		//bransonCooperScene.SetActive(false);
+	}
+	*/
 
 	#endregion
 
