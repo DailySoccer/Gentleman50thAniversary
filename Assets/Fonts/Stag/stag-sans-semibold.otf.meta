@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: a01a08b31d5696b4bbef4ff89ca1d5bc
+timeCreated: 1490888955
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stag Sans
+  fontNames:
+  - Stag Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2a33579645eb97642a4d0c1894ca3486, type: 3}
+  - {fileID: 12800000, guid: 1f304cc66c54c6c4abcc994b24607f19, type: 3}
+  - {fileID: 12800000, guid: 369c3757982197d4b84110e7e5d85cee, type: 3}
+  - {fileID: 12800000, guid: 0261308bd9097d042ad79b3049c091f8, type: 3}
+  - {fileID: 12800000, guid: 646f25cc64c33a34e8ab1762d1060b1e, type: 3}
+  - {fileID: 12800000, guid: 828c87fdb57d45446a133965350ac0cb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
