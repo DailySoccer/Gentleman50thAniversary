@@ -131,6 +131,7 @@ public class ExperienceManager : MonoBehaviour {
 	private void DeactivateFedererRollsScene() {
 		federerRollsScene.SetActive(false);
 	}
+
 	#endregion
 
 	#region Federer
@@ -141,21 +142,42 @@ public class ExperienceManager : MonoBehaviour {
 	[Header("Adria-Gardner")]
 	public GameObject adriaGardnerScene;
 	public GameObject adriaGardnerWorldElements;
-	/*[Header("Gardner")]
-	public GameObject rollsBlackBoxContainer;
-*/
+
+	[Header("Gardner")]
+	public GameObject gardnerBlackBoxContainer;
+	public Animator gardnerBlackBox;
+
 
 	public void ActivateAdriaBlackBox() {
 		adriaBlackBox.SetTrigger("ActivateBox");
 	}
+
 	public void ActivateAdriaScene() {
 		adriaGardnerScene.SetActive(true);
 	}
+
 	public void HideAdriaGardnerWorldElements() {
 		federerRollsWorldElements.SetActive(false);
 		rollsBlackBoxContainer.SetActive(false);
 		adriaBlackBox.SetTrigger("ActivateBox");
 		skySphere.SetActive(false);
+	}
+
+	public void ActivateGardnerBlackBox() {
+		gardnerBlackBoxContainer.SetActive(true);
+		mainCameraContainer.SetActive(true);
+		gardnerBlackBox.SetTrigger("ActivateBox");
+	}
+
+	private void ActivateGardnerCoverWorld() {
+		adriaGardnerWorldElements.SetActive(true);
+		skySphere.SetActive(true);
+		gardnerBlackBox.SetTrigger("DeactivateBox");
+		//rollsBlackBoxContainer.SetActive(true);
+		//mainCameraContainer.SetActive(true);
+		//federerRollsScene.SetActive(false);
+
+		//bransonCooperScene.SetActive(false);
 	}
 
 	/*
