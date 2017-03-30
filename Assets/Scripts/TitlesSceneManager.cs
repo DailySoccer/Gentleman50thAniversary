@@ -13,4 +13,8 @@ public class TitlesSceneManager : MonoBehaviour {
 	public void Play() {
 		SceneManager.LoadScene ("GentlemanPresentation", LoadSceneMode.Single);
 	}
+
+	public void GoToTitleScreen() {
+		SceneManager.LoadScene("TitleScreenReplay", LoadSceneMode.Single);
+	}
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ExperienceManager : MonoBehaviour {
 
@@ -206,4 +207,7 @@ public class ExperienceManager : MonoBehaviour {
 
 	#endregion
 
+	public void GoToTitleScreen() {
+		SceneManager.LoadScene("TitleScreenReplay", LoadSceneMode.Single);
+	}
 }
