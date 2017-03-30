@@ -22,6 +22,7 @@ ModelImporter:
     100028: SalaPoltronafrau
     100030: //RootNode
     100032: SalaVueltaalMundo
+    100034: Box030
     400000: CuadrosSalaBibliotecas
     400002: CuadrosSalaBurdeos
     400004: CuadrosSalaFortuny
@@ -39,6 +40,7 @@ ModelImporter:
     400028: SalaPoltronafrau
     400030: //RootNode
     400032: SalaVueltaalMundo
+    400034: Box030
     2300000: CuadrosSalaBibliotecas
     2300002: CuadrosSalaBurdeos
     2300004: CuadrosSalaFortuny
@@ -55,6 +57,7 @@ ModelImporter:
     2300026: SalaPianos
     2300028: SalaPoltronafrau
     2300030: SalaVueltaalMundo
+    2300032: Box030
     3300000: CuadrosSalaBibliotecas
     3300002: CuadrosSalaBurdeos
     3300004: CuadrosSalaFortuny
@@ -71,6 +74,7 @@ ModelImporter:
     3300026: SalaPianos
     3300028: SalaPoltronafrau
     3300030: SalaVueltaalMundo
+    3300032: Box030
     4300000: CuadrosSalaModa
     4300002: SalaModa
     4300004: CuadrosSalaBurdeos
@@ -87,6 +91,7 @@ ModelImporter:
     4300026: SalaGastronomia
     4300028: CuadrosSalaVueltaalMundo
     4300030: SalaVueltaalMundo
+    4300032: Box030
   materials:
     importMaterials: 1
     materialName: 0
