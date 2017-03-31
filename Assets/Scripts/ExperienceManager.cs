@@ -48,14 +48,14 @@ public class ExperienceManager : MonoBehaviour {
 	}
 
 	public void OpenRichardBransonBlackBox() {
-		bransonWorldElements.SetActive(false);
-		skySphere.SetActive(false);
 		bransonCover.SetTrigger("HideCover");
 	}
 
 	public void ActivateRichardBransonScene() {
 		//bransonBlackboxContainer.SetActive(false);
 		bransonCooperScene.SetActive(true);
+		bransonWorldElements.SetActive(false);
+		skySphere.SetActive(false);
 	}
 
 	#endregion
