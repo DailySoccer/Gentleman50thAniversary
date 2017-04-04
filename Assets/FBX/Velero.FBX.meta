@@ -76,6 +76,15 @@ ModelImporter:
     100136: Winch_01
     100138: Winch_02
     100140: helm 1
+    100142: Velero_MeshPart0
+    100144: Velero_MeshPart1
+    100146: Velero_MeshPart2
+    100148: Velero_MeshPart3
+    100150: Velero_MeshPart4
+    100152: Velero_MeshPart5
+    100154: Velero_MeshPart6
+    100156: Velero_MeshPart7
+    100158: Velero_MeshPart8
     400000: armature
     400002: backrest
     400004: backstay_01
@@ -147,6 +156,15 @@ ModelImporter:
     400136: Winch_01
     400138: Winch_02
     400140: helm 1
+    400142: Velero_MeshPart0
+    400144: Velero_MeshPart1
+    400146: Velero_MeshPart2
+    400148: Velero_MeshPart3
+    400150: Velero_MeshPart4
+    400152: Velero_MeshPart5
+    400154: Velero_MeshPart6
+    400156: Velero_MeshPart7
+    400158: Velero_MeshPart8
     2300000: armature
     2300002: backrest
     2300004: backstay_01
@@ -216,6 +234,15 @@ ModelImporter:
     2300132: Winch_01
     2300134: Winch_02
     2300136: helm 1
+    2300138: Velero_MeshPart0
+    2300140: Velero_MeshPart1
+    2300142: Velero_MeshPart2
+    2300144: Velero_MeshPart3
+    2300146: Velero_MeshPart4
+    2300148: Velero_MeshPart5
+    2300150: Velero_MeshPart6
+    2300152: Velero_MeshPart7
+    2300154: Velero_MeshPart8
     3300000: armature
     3300002: backrest
     3300004: backstay_01
@@ -285,6 +312,15 @@ ModelImporter:
     3300132: Winch_01
     3300134: Winch_02
     3300136: helm 1
+    3300138: Velero_MeshPart0
+    3300140: Velero_MeshPart1
+    3300142: Velero_MeshPart2
+    3300144: Velero_MeshPart3
+    3300146: Velero_MeshPart4
+    3300148: Velero_MeshPart5
+    3300150: Velero_MeshPart6
+    3300152: Velero_MeshPart7
+    3300154: Velero_MeshPart8
     4300000: ropes
     4300002: Sail_03
     4300004: Sail_02
@@ -354,6 +390,15 @@ ModelImporter:
     4300132: helm
     4300134: sheathing
     4300136: helm
+    4300138: Velero_MeshPart0
+    4300140: Velero_MeshPart1
+    4300142: Velero_MeshPart2
+    4300144: Velero_MeshPart3
+    4300146: Velero_MeshPart4
+    4300148: Velero_MeshPart5
+    4300150: Velero_MeshPart6
+    4300152: Velero_MeshPart7
+    4300154: Velero_MeshPart8
   materials:
     importMaterials: 1
     materialName: 0
@@ -364,6 +409,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
