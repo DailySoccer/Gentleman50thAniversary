@@ -112,10 +112,10 @@ public class ExperienceManager : MonoBehaviour {
 
 	public void ActivateFedererScene() {
 		cooperWorldElements.SetActive(false);
-		federerBlackBoxContainer.SetActive(false);
+		//federerBlackBoxContainer.SetActive(false);
 		cooperBlackBoxContainer.SetActive(false);
 		skySphere.SetActive(false);
-		mainCameraContainer.SetActive(false);
+		//mainCameraContainer.SetActive(false);
 	}
 
 	private void ActivateRollsCoverWorld() {
